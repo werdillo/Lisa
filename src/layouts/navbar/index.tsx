@@ -28,7 +28,7 @@ export function LpNavbar() {
   const toggleMenu = () => setIsMenuOpen((prev) => !prev);
 
   return (
-    <nav className="border-border w-full max-w-7xl bg-background sticky isolate z-50 border-b px-6 py-2.5 md:fixed md:top-16 md:left-1/2 md:w-full md:max-w-3xl md:-translate-x-1/2 md:rounded-xl md:border md:p-3 md:shadow-lg">
+    <nav className="border-border w-full bg-background sticky isolate z-50 border-b px-6 py-2.5 md:fixed md:top-16 md:left-1/2 md:w-full md:max-w-7xl md:-translate-x-1/2 md:rounded-xl md:border md:p-3 md:shadow-lg">
       <div className="mx-auto flex flex-col justify-between gap-4 md:flex-row md:items-center md:gap-6">
         <div className="flex items-center justify-between">
           <a href="/" aria-label="Go to homepage">

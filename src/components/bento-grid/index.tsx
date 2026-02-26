@@ -6,7 +6,7 @@ const MAX_GRID_HEIGHT = "672px";
 export function BentoGrid() {
   return (
     <section>
-      <div className="container-padding-x container mx-auto flex flex-col gap-10 md:gap-12">
+      <div className="max-w-7xl mx-auto flex flex-col gap-10 md:gap-12">
         {/* Section Title */}
         <div className="section-title-gap-lg mx-auto flex max-w-xl flex-col items-center text-center">
           <h2 className="heading-lg">{sectionData.heading}</h2>
