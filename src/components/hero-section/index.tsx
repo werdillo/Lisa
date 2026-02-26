@@ -19,11 +19,11 @@ export default function HeroSection() {
         <div className="flex flex-col items-center gap-4 text-center lg:flex-row lg:items-start lg:gap-16 lg:text-left">
           <div className="section-title-gap-xl flex flex-1 flex-col items-center text-center lg:items-start lg:text-left">
             <div className="flex flex-wrap gap-2 justify-center lg:justify-start">
-              {heroData.badges.map((badge) => (
+              {heroData.badges.map((badge, index) => (
                 <Badge
                   key={badge}
                   variant="secondary"
-                  className="bg-secondary/60 text-sm text-foreground border-light/90 rounded-md"
+                  className={`${index > 0 ? "hidden lg:inline-flex" : ""} bg-secondary/60 text-sm text-foreground border-light/90 rounded-md`}
                 >
                   {badge}
                 </Badge>
