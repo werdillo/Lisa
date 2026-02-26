@@ -22,9 +22,4 @@ export const footerData = {
     { href: "#", label: "Instagram", icon: SiInstagram },
     { href: "#", label: "WhatsApp", icon: SiWhatsapp },
   ],
-  legalLinks: [
-    { href: "#", label: "Privacy Policy" },
-    { href: "#", label: "Terms of Service" },
-    { href: "#", label: "Cookies Settings" },
-  ],
 };
