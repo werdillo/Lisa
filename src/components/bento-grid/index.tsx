@@ -8,9 +8,6 @@ export function BentoGrid() {
       <div className="container-padding-x container mx-auto flex flex-col gap-10 md:gap-12">
         {/* Section Title */}
         <div className="section-title-gap-lg mx-auto flex max-w-xl flex-col items-center text-center">
-          {/* Tagline */}
-          <Tagline>{sectionData.tagline}</Tagline>
-          {/* Main Heading */}
           <h2 className="heading-lg">{sectionData.heading}</h2>
           {/* Description */}
           <p className="text-muted-foreground">{sectionData.description}</p>

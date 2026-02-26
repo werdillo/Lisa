@@ -11,6 +11,8 @@
   "dependencies": {
     "@astrojs/mdx": "^4.3.13",
     "@astrojs/react": "^4.4.2",
+    "@fontsource/manrope": "^5.2.8",
+    "@fontsource/syne": "^5.2.7",
     "@icons-pack/react-simple-icons": "^13.11.2",
     "@radix-ui/react-slot": "^1.2.4",
     "@tailwindcss/vite": "^4.1.18",

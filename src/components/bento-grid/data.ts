@@ -1,16 +1,16 @@
 export const sectionData = {
-  tagline: "Bento Grid Section",
-  heading: "Feature-rich layout that captures attention",
+  heading:
+    "Hello! I'm Jelisaveta. My journey in the tattoo world started with my love for drawing.",
   description:
-    "Add a concise value statement that highlights your product's key features and benefits in a visually dynamic grid. Focus on creating balanced content blocks while keeping it under 2-3 lines. Align with your grid layout structure.",
+    "I work mainly in black and white, preferring fine lines, clean graphics and expressive symbolism. In my tattoos I try to combine aesthetics and meaning so that each piece not only adorns the body, but also reflects the inner world of a person.",
 };
 
 export const features = [
   {
     id: 1,
-    title: "Feature title",
+    title: "Grey realism",
     description:
-      "Shortly describe how this feature solves a specific user problem. Focus on benefits.",
+      "It captures the subtle nuances of light and shadow, creating depth and dimension on skin.",
     imageSrc: "https://ui.shadcn.com/placeholder.svg",
     imageAlt: "Placeholder",
     className: "rounded-xl lg:row-span-2",
@@ -18,9 +18,9 @@ export const features = [
   },
   {
     id: 2,
-    title: "Feature title",
+    title: "Bold abstraction",
     description:
-      "Shortly describe how this feature solves a specific user problem. Focus on benefits.",
+      "It allows for self-expression without constraints, mirroring the fluidity of life.",
     imageSrc: "https://ui.shadcn.com/placeholder.svg",
     imageAlt: "Placeholder",
     className: "rounded-xl",
@@ -28,9 +28,9 @@ export const features = [
   },
   {
     id: 3,
-    title: "Feature title",
+    title: "Vibrant surrealism",
     description:
-      "Shortly describe how this feature solves a specific user problem. Focus on benefits.",
+      "It sparks imagination, offering an escape into vibrant, dreamlike realities on skin.",
     imageSrc: "https://ui.shadcn.com/placeholder.svg",
     imageAlt: "Placeholder",
     className: "rounded-xl lg:col-start-2",
@@ -38,9 +38,9 @@ export const features = [
   },
   {
     id: 4,
-    title: "Feature title",
+    title: "Minimalist elegance",
     description:
-      "Shortly describe how this feature solves a specific user problem. Focus on benefits.",
+      "It offers understated beauty, perfect for those seeking subtle, yet impactful designs.",
     imageSrc: "https://ui.shadcn.com/placeholder.svg",
     imageAlt: "Placeholder",
     className: "rounded-xl lg:col-start-3 lg:row-span-2 lg:row-start-1",

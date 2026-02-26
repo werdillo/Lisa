@@ -23,7 +23,7 @@ export default function HeroSection() {
         <div className="flex flex-col items-center gap-4 text-center lg:flex-row lg:items-start lg:gap-16 lg:text-left">
           <div className="section-title-gap-xl flex flex-1 flex-col items-center text-center lg:items-start lg:text-left">
             <Tagline variant="white">{heroData.tagline}</Tagline>
-            <h1 id="hero-heading" className="heading-xl text-white">
+            <h1 id="hero-heading" className="heading-xl text-white uppercase">
               {heroData.heading}
             </h1>
           </div>

@@ -22,7 +22,7 @@ export function ContactInfo() {
                 aria-label={contact.ariaLabel}
               >
                 <div className="pt-0.5">
-                  <IconComponent className="text-primary h-5 w-5" />
+                  <IconComponent className="text-secondary/60 h-5 w-5" />
                 </div>
                 <span className="text-card-foreground text-base leading-6 font-medium">
                   {contact.label}

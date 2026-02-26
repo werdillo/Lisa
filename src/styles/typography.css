@@ -1,0 +1,39 @@
+h1 {
+    font-family: var(--font-syne);
+    font-size: 36px;
+    line-height: 120%;
+    font-weight: 700;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 32px;
+    }
+}
+
+h2 {
+    font-family: var(--font-syne);
+    font-size: 24px;
+    line-height: 120%;
+    font-weight: 600;
+}
+
+h3 {
+    font-family: var(--font-manrope);
+    font-size: 16px;
+    line-height: 130%;
+    font-weight: 600;
+}
+
+h4 {
+    font-family: var(--font-manrope);
+    font-size: 14px;
+    line-height: 140%;
+    font-weight: 600;
+}
+
+p {
+    font-family: var(--font-manrope);
+    font-size: 16px;
+    line-height: 140%;
+}

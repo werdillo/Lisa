@@ -10,7 +10,7 @@ export function FooterNav() {
         <a
           key={link.label}
           href={link.href}
-          className="text-muted-foreground hover:text-foreground transition-colors"
+          className="text-foreground hover:text-muted-foreground transition-colors"
         >
           {link.label}
         </a>
