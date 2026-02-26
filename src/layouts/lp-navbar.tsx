@@ -1,6 +1,6 @@
 "use client";
 
-import { Logo } from "@/components/pro-blocks/logo";
+import { Logo } from "@/components/logo";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";

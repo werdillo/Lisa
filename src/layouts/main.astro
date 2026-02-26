@@ -1,8 +1,8 @@
 ---
-import { LpNavbar4 } from "@/components/pro-blocks/landing-page/lp-navbars/lp-navbar-4";
 import "../styles/global.css";
 const { content } = Astro.props;
-import { Footer3 } from "@/components/pro-blocks/landing-page/footers/footer-3";
+import { Footer } from "./footer";
+import { LpNavbar } from "./lp-navbar";
 ---
 
 <html lang="en">
@@ -14,8 +14,8 @@ import { Footer3 } from "@/components/pro-blocks/landing-page/footers/footer-3";
         <title>{content.title}</title>
     </head>
     <body class="dark">
-        <LpNavbar4 />
+        <LpNavbar />
         <slot />
-        <Footer3 />
+        <Footer />
     </body>
 </html>

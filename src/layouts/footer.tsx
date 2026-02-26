@@ -1,4 +1,4 @@
-import { Logo } from "@/components/pro-blocks/logo";
+import { Logo } from "@/components/logo";
 import { Separator } from "@/components/ui/separator";
 import {
   SiFacebook,
