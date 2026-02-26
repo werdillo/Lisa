@@ -5,12 +5,7 @@ export function ContactInfo() {
   return (
     <div className="flex flex-1 items-center justify-center px-6 py-0 md:py-24">
       <div className="flex max-w-md flex-col gap-8">
-        <div className="section-title-gap-lg mx-auto flex flex-col">
-          <p className="text-muted-foreground text-lg/8 text-pretty">
-            {contactData.description}
-          </p>
-        </div>
-
+        <h2 >{contactData.description}</h2>
         <div className="flex flex-col gap-4">
           {contactData.contactInfo.map((contact) => {
             const IconComponent = contact.icon;

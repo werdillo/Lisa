@@ -6,6 +6,7 @@ import HeroSection from "@/components/hero-section";
 import { FeatureSection } from "@/components/feature-section";
 import { BentoGrid } from "@/components/bento-grid";
 import { ContactSection } from "@/components/contact-section";
+import { Image } from "astro:assets";
 
 const content = {
     title: "Welcome to Astro!",
@@ -15,10 +16,22 @@ const content = {
 ---
 
 <Main content={content}>
-    <div class="flex flex-col gap-24 lg:gap-60">
+    <div class="flex flex-col gap-24 lg:gap-60 mb-24 lg:mb-60">
         <HeroSection />
         <FeatureSection />
         <BentoGrid />
         <ContactSection />
+        <div class="flex flex-col justify-center items-center gap-6">
+            <Image
+                src="/sertificate.jpg"
+                alt="Certificate"
+                height={320}
+                width={256}
+                inferSize={true}
+            />
+            <h1 class="uppercase max-w-3xl text-center">
+                A Certified Tattoo Artist's Promise -  Your Vision, My Expertise
+            </h1>
+        </div>
     </div>
 </Main>
