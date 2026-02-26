@@ -1,5 +1,10 @@
 export const heroData = {
-  tagline: "Hero Section",
+  badges: [
+    "Grey realism",
+    "Bold abstraction",
+    "Vibrant surrealism",
+    "Minimalist elegance",
+  ],
   heading: "Inkredible Artistry: Tattoos that Tell Your Story",
   description:
     "Let me transform your vision into breathtaking reality. Schedule a consultation today!",

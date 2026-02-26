@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
-import { Tagline } from "@/components/tagline";
+import { Badge } from "@/components/ui/badge";
 import { heroData } from "./data";
 
 export default function HeroSection() {
@@ -14,11 +14,21 @@ export default function HeroSection() {
         alt={heroData.image.alt}
         className="absolute inset-0 z-0 h-full w-full object-cover"
       />
-      <div className="absolute inset-0 z-0" />
+      <div className="absolute inset-0 z-0 " />
       <div className="container-padding-x relative z-1 mx-auto flex max-w-7xl flex-col items-center gap-12 lg:flex-row lg:gap-16">
         <div className="flex flex-col items-center gap-4 text-center lg:flex-row lg:items-start lg:gap-16 lg:text-left">
           <div className="section-title-gap-xl flex flex-1 flex-col items-center text-center lg:items-start lg:text-left">
-            <Tagline variant="white">{heroData.tagline}</Tagline>
+            <div className="flex flex-wrap gap-2 justify-center lg:justify-start">
+              {heroData.badges.map((badge) => (
+                <Badge
+                  key={badge}
+                  variant="secondary"
+                  className="bg-secondary/60 text-sm text-foreground border-light/90 rounded-md"
+                >
+                  {badge}
+                </Badge>
+              ))}
+            </div>
             <h1 id="hero-heading" className="heading-xl text-white uppercase">
               {heroData.heading}
             </h1>
