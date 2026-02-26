@@ -7,7 +7,7 @@ import { contactData } from "./data";
 
 export function ContactForm() {
   return (
-    <div className="md:bg-secondary/60 flex flex-1 flex-col items-center justify-center px-6 py-0 md:py-24">
+    <div className="md:bg-secondary/60 border-light/90 flex flex-1 flex-col items-center justify-center px-6 py-0 md:py-24">
       <form
         className="flex w-full max-w-md flex-col"
         onSubmit={(e) => e.preventDefault()}

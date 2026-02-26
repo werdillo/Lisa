@@ -6,10 +6,6 @@ export function ContactInfo() {
     <div className="flex flex-1 items-center justify-center px-6 py-0 md:py-24">
       <div className="flex max-w-md flex-col gap-8">
         <div className="section-title-gap-lg mx-auto flex flex-col">
-          <Tagline>{contactData.tagline}</Tagline>
-          <h1 id="contact-heading" className="heading-lg">
-            {contactData.heading}
-          </h1>
           <p className="text-muted-foreground text-lg/8 text-pretty">
             {contactData.description}
           </p>

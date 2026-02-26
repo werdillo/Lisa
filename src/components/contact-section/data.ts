@@ -1,10 +1,8 @@
 import { Phone, Mail, MapPin } from "lucide-react";
 
 export const contactData = {
-  tagline: "Contact Section",
-  heading: "Get in touch",
   description:
-    "Write one or two welcoming sentences that encourage contact and include your response time commitment.",
+    "Come and visit - let's create something special, personal and really cool.",
   contactInfo: [
     {
       id: 1,

@@ -13,17 +13,13 @@ export const footerData = {
     siteUrl: "#",
   },
   mainNav: [
-    { href: "#", label: "Home" },
-    { href: "#", label: "About Us" },
-    { href: "#", label: "Services" },
-    { href: "#", label: "Contact Us" },
-    { href: "#", label: "FAQ" },
+    { label: "Home", href: "#" },
+    { label: "Portfolio", href: "#" },
+    { label: "About me", href: "#" },
+    { label: "Contacts", href: "#" },
   ],
   socialMedia: [
-    { href: "#", label: "Facebook", icon: SiFacebook },
     { href: "#", label: "Instagram", icon: SiInstagram },
-    { href: "#", label: "X", icon: SiX },
-    { href: "#", label: "YouTube", icon: SiYoutube },
     { href: "#", label: "WhatsApp", icon: SiWhatsapp },
   ],
   legalLinks: [
