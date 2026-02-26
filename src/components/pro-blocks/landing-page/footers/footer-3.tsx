@@ -38,7 +38,7 @@ const footerData = {
 export function Footer3() {
   return (
     <footer
-      className="bg-background section-padding-y text-sm"
+      className="bg-secondary/60 section-padding-y text-sm"
       role="contentinfo"
       aria-label="Site footer"
     >

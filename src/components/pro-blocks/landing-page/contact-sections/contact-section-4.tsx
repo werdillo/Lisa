@@ -109,7 +109,7 @@ export function ContactSection4() {
 
         <Separator className="block md:hidden" />
 
-        <div className="md:bg-muted/40 flex flex-1 flex-col items-center justify-center px-6 py-0 md:py-24">
+        <div className="md:bg-secondary/60 flex flex-1 flex-col items-center justify-center px-6 py-0 md:py-24">
           <form
             className="flex w-full max-w-md flex-col"
             onSubmit={(e) => e.preventDefault()}

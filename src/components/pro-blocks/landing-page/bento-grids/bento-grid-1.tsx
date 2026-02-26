@@ -60,7 +60,7 @@ const features = [
 
 export function BentoGrid1() {
   return (
-    <section className="bg-muted section-padding-y">
+    <section className="section-padding-y">
       <div className="container-padding-x container mx-auto flex flex-col gap-10 md:gap-12">
         {/* Section Title */}
         <div className="section-title-gap-lg mx-auto flex max-w-xl flex-col items-center text-center">
@@ -77,7 +77,7 @@ export function BentoGrid1() {
           {features.map((feature) => (
             <Card key={feature.id} className={feature.className}>
               <CardHeader>
-                <CardTitle className="text-lg font-semibold">
+                <CardTitle className="text-base text-primary font-semibold">
                   {feature.title}
                 </CardTitle>
                 <CardDescription>{feature.description}</CardDescription>
