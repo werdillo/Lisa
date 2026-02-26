@@ -1,6 +1,7 @@
-import { Tagline } from "@/components/tagline";
 import { sectionData, features } from "./data";
 import { BentoCard } from "./bento-card";
+
+const MAX_GRID_HEIGHT = "672px";
 
 export function BentoGrid() {
   return (
@@ -14,7 +15,19 @@ export function BentoGrid() {
         </div>
 
         {/* Feature Grid */}
-        <div className="grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-3">
+        <div
+          className="grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-3"
+          style={{ height: `var(--grid-height, auto)` } as React.CSSProperties}
+        >
+          <style
+            dangerouslySetInnerHTML={{
+              __html: `
+            @media (min-width: 1024px) {
+              :root { --grid-height: ${MAX_GRID_HEIGHT}; }
+            }
+          `,
+            }}
+          />
           {features.map((feature) => (
             <BentoCard
               key={feature.id}
@@ -22,8 +35,8 @@ export function BentoGrid() {
               description={feature.description}
               imageSrc={feature.imageSrc}
               imageAlt={feature.imageAlt}
-              className={feature.className}
-              imageClassName={feature.imageClassName}
+              className={`${feature.className} h-[365px] lg:h-full flex flex-col overflow-hidden`}
+              imageClassName="h-full w-full object-cover min-h-0"
             />
           ))}
         </div>

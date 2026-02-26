@@ -31,7 +31,7 @@ export function BentoCard({
         </CardTitle>
         <CardDescription>{description}</CardDescription>
       </CardHeader>
-      <CardContent className="flex h-full flex-col">
+      <CardContent className="flex flex-1 flex-col min-h-0">
         <img
           src={imageSrc}
           alt={imageAlt}

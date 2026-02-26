@@ -24,7 +24,7 @@ export const features = [
     imageSrc: "/assets/tatoo-2.png",
     imageAlt: "Placeholder",
     className: "rounded-xl",
-    imageClassName: "h-full w-full object-cover md:aspect-[4/3]",
+    imageClassName: "h-full w-full object-cover",
   },
   {
     id: 3,
@@ -34,7 +34,7 @@ export const features = [
     imageSrc: "/assets/tatoo-3.png",
     imageAlt: "Placeholder",
     className: "rounded-xl lg:col-start-2",
-    imageClassName: "h-full w-full object-cover md:aspect-[4/3]",
+    imageClassName: "h-full w-full object-cover",
   },
   {
     id: 4,
