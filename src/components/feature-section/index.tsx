@@ -5,7 +5,7 @@ import { FeatureItem } from "./feature-item";
 
 export function FeatureSection() {
   return (
-    <section className="bg-background section-padding-y">
+    <section className="bg-background">
       <div className="container-padding-x mx-auto flex max-w-7xl flex-col items-center gap-12 md:gap-16 lg:flex-row">
         <div className="flex flex-1 flex-col gap-8 md:gap-12">
           <div className="section-title-gap-lg flex flex-col">

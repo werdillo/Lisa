@@ -4,7 +4,7 @@ import { BentoCard } from "./bento-card";
 
 export function BentoGrid() {
   return (
-    <section className="section-padding-y">
+    <section>
       <div className="container-padding-x container mx-auto flex flex-col gap-10 md:gap-12">
         {/* Section Title */}
         <div className="section-title-gap-lg mx-auto flex max-w-xl flex-col items-center text-center">
