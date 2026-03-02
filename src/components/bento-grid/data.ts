@@ -10,7 +10,7 @@ export const features = [
     id: 1,
     title: "Grey realism",
     description:
-      "It captures the subtle nuances of light and shadow, creating depth and dimension on skin.",
+      "It's safe to say that the graphic style dominates this century's visual culture. People are naturally drawn to its striking contrast, clean lines, and powerful expressiveness",
     imageSrc: "/assets/tatoo-1.jpg",
     imageAlt: "Placeholder",
     className: "rounded-xl lg:row-span-2",
@@ -18,30 +18,30 @@ export const features = [
   },
   {
     id: 2,
-    title: "Bold abstraction",
+    title: "Realism",
     description:
-      "It allows for self-expression without constraints, mirroring the fluidity of life.",
-    imageSrc: "/assets/tatoo-2.png",
+      "Realism is celebrated for its meticulous detail, rich interplay of light and shadow",
+    imageSrc: "/assets/tatoo-2.jpg",
     imageAlt: "Placeholder",
     className: "rounded-xl",
     imageClassName: "h-full w-full object-cover",
   },
   {
     id: 3,
-    title: "Vibrant surrealism",
+    title: "Colored realism",
     description:
-      "It sparks imagination, offering an escape into vibrant, dreamlike realities on skin.",
-    imageSrc: "/assets/tatoo-3.png",
+      "Blends technical precision with rich, bold colors, striving to replicate life with depth.",
+    imageSrc: "/assets/tatoo-3.jpg",
     imageAlt: "Placeholder",
     className: "rounded-xl lg:col-start-2",
     imageClassName: "h-full w-full object-cover",
   },
   {
     id: 4,
-    title: "Minimalist elegance",
+    title: "Japanese",
     description:
-      "It offers understated beauty, perfect for those seeking subtle, yet impactful designs.",
-    imageSrc: "/assets/tatoo-4.png",
+      "In Japanese culture, tattoos are highly symbolic, with every design carrying a specific and deliberate meaning",
+    imageSrc: "/assets/tatoo-4.jpg",
     imageAlt: "Placeholder",
     className: "rounded-xl lg:col-start-3 lg:row-span-2 lg:row-start-1",
     imageClassName: "h-full w-full object-cover",
