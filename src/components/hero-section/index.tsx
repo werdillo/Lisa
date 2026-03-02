@@ -23,7 +23,7 @@ export default function HeroSection() {
                 <Badge
                   key={badge}
                   variant="secondary"
-                  className={`${index > 0 ? "hidden lg:inline-flex" : ""} bg-secondary/60 text-sm text-foreground border-light/90 rounded-md`}
+                  className={`${index > 0 ? "hidden lg:inline-flex" : ""} bg-secondary/60 text-sm text-foreground/80 border-light/90 rounded-md`}
                 >
                   {badge}
                 </Badge>
