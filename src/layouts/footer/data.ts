@@ -14,9 +14,9 @@ export const footerData = {
   },
   mainNav: [
     { label: "Home", href: "#" },
-    { label: "Portfolio", href: "#" },
-    { label: "About me", href: "#" },
-    { label: "Contacts", href: "#" },
+    { label: "Portfolio", href: "#portfolio" },
+    { label: "About me", href: "#about" },
+    { label: "Contacts", href: "#contacts" },
   ],
   socialMedia: [
     { href: "#", label: "Instagram", icon: SiInstagram },
