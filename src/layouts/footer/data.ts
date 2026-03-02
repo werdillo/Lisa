@@ -19,7 +19,11 @@ export const footerData = {
     { label: "Contacts", href: "#contacts" },
   ],
   socialMedia: [
-    { href: "#", label: "Instagram", icon: SiInstagram },
-    { href: "#", label: "WhatsApp", icon: SiWhatsapp },
+    {
+      href: "https://www.instagram.com/fox.yinc?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
+      label: "Instagram",
+      icon: SiInstagram,
+    },
+    { href: "(+371) 22484996", label: "WhatsApp", icon: SiWhatsapp },
   ],
 };
