@@ -29,7 +29,9 @@ export function BentoCard({
         <CardTitle className="text-base text-primary font-semibold">
           {title}
         </CardTitle>
-        <CardDescription>{description}</CardDescription>
+        <CardDescription className="text-foreground text-base">
+          {description}
+        </CardDescription>
       </CardHeader>
       <CardContent className="flex flex-1 flex-col min-h-0">
         <img
