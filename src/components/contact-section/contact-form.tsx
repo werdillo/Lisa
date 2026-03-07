@@ -1,16 +1,24 @@
+import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Field, FieldGroup, FieldLabel, FieldSet } from "@/components/ui/field";
 import { contactData } from "./data";
+import { submitContactForm, type FormStatus } from "./action";
 
 export function ContactForm() {
+  const [status, setStatus] = useState<FormStatus>("idle");
+
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    submitContactForm(e, setStatus);
+  };
+
   return (
     <div className="bg-secondary/60 border-light/90 border-[1px] flex flex-1 flex-col items-center justify-center px-6 py-8 md:py-24">
       <form
         className="flex w-full max-w-md flex-col"
-        onSubmit={(e) => e.preventDefault()}
+        onSubmit={handleSubmit}
         aria-label="Contact form"
       >
         <FieldSet>
@@ -21,6 +29,7 @@ export function ContactForm() {
               </FieldLabel>
               <Input
                 id={contactData.form.fields.name.id}
+                name={contactData.form.fields.name.id}
                 placeholder={contactData.form.fields.name.placeholder}
                 required
                 aria-required="true"
@@ -34,6 +43,7 @@ export function ContactForm() {
               </FieldLabel>
               <Input
                 id={contactData.form.fields.email.id}
+                name={contactData.form.fields.email.id}
                 type={contactData.form.fields.email.type}
                 placeholder={contactData.form.fields.email.placeholder}
                 required
@@ -48,6 +58,7 @@ export function ContactForm() {
               </FieldLabel>
               <Textarea
                 id={contactData.form.fields.message.id}
+                name={contactData.form.fields.message.id}
                 placeholder={contactData.form.fields.message.placeholder}
                 className="bg-background min-h-[106px]"
                 required
@@ -78,10 +89,28 @@ export function ContactForm() {
             </Field>
 
             <Field>
-              <Button type="submit" className="w-full">
-                {contactData.form.submitButton}
+              <Button
+                type="submit"
+                className="w-full"
+                disabled={status === "loading"}
+              >
+                {status === "loading"
+                  ? "Sending..."
+                  : contactData.form.submitButton}
               </Button>
             </Field>
+
+            {status === "success" && (
+              <p className="mt-4 text-center text-sm text-green-500">
+                Message sent successfully!
+              </p>
+            )}
+
+            {status === "error" && (
+              <p className="mt-4 text-center text-sm text-red-500">
+                Something went wrong. Please try again.
+              </p>
+            )}
           </FieldGroup>
         </FieldSet>
       </form>
