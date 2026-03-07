@@ -1,5 +1,6 @@
 import { sectionData, features } from "./data";
 import { BentoCard } from "./bento-card";
+import { Button } from "../ui/button";
 
 const MAX_GRID_HEIGHT = "672px";
 
@@ -39,6 +40,9 @@ export function BentoGrid() {
               imageClassName="h-full w-full object-cover min-h-0"
             />
           ))}
+        </div>
+        <div className="flex justify-center">
+          <Button variant="secondary">View Full Portfolio</Button>
         </div>
       </div>
     </section>
