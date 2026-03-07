@@ -50,7 +50,7 @@ export const contactData = {
       id: "privacy",
       text: "By selecting this you agree to our",
       linkText: "Privacy Policy",
-      linkHref: "#",
+      linkHref: "/privacy-policy",
     },
     submitButton: "Send message",
   },
