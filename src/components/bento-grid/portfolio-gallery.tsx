@@ -41,13 +41,22 @@ export function PortfolioGallery() {
           View Full Portfolio
         </Button>
       </DialogTrigger>
-      <DialogContent className="max-w-4xl max-h-[90vh] overflow-y-auto">
+      <DialogContent
+        className="max-w-[95vw] w-full h-[90vh] md:h-[95vh] overflow-y-auto"
+        onOpenAutoFocus={(e) => {
+          // Fix for layout shift: ensure scrollbar-gutter or similar isn't causing jumps
+          document.documentElement.style.paddingRight = `${window.innerWidth - document.documentElement.clientWidth}px`;
+        }}
+        onCloseAutoFocus={() => {
+          document.documentElement.style.paddingRight = "";
+        }}
+      >
         <DialogHeader>
-          <DialogTitle className="text-2xl font-bold mb-4">
+          <DialogTitle className="text-2xl font-bold mb-6">
             Full Portfolio
           </DialogTitle>
         </DialogHeader>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
           {galleryImages.map((image, index) => (
             <div
               key={index}
@@ -60,7 +69,9 @@ export function PortfolioGallery() {
                 loading="lazy"
               />
               <div className="absolute inset-0 bg-black/40 opacity-0 transition-opacity duration-300 group-hover:opacity-100 flex items-center justify-center">
-                <span className="text-white text-sm font-medium">View Image</span>
+                <span className="text-white text-sm font-medium">
+                  View Image
+                </span>
               </div>
             </div>
           ))}

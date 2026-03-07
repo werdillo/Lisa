@@ -1,4 +1,10 @@
 @import "tailwindcss";
+
+@layer base {
+    html[style*="overflow: hidden"] {
+        margin-right: var(--removed-body-scroll-bar-size);
+    }
+}
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
 @import "@fontsource/syne";
