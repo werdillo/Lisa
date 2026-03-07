@@ -56,11 +56,11 @@ export function PortfolioGallery() {
             Full Portfolio
           </DialogTitle>
         </DialogHeader>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12 max-w-7xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 max-w-7xl mx-auto">
           {galleryImages.map((image, index) => (
             <div
               key={index}
-              className="relative aspect-square w-full overflow-hidden rounded-lg bg-muted"
+              className="relative aspect-square w-full overflow-hidden bg-muted"
             >
               <img
                 src={image.src}
