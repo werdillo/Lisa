@@ -42,7 +42,7 @@ export function PortfolioGallery() {
         </Button>
       </DialogTrigger>
       <DialogContent
-        className="max-w-[100vw] w-screen h-screen md:h-[98vh] overflow-y-auto rounded-none md:rounded-lg"
+        className="max-w-none w-screen h-screen md:h-[98vh] md:w-[98vw] overflow-y-auto rounded-none md:rounded-lg"
         onOpenAutoFocus={(e) => {
           // Fix for layout shift: ensure scrollbar-gutter or similar isn't causing jumps
           document.documentElement.style.paddingRight = `${window.innerWidth - document.documentElement.clientWidth}px`;
@@ -60,19 +60,14 @@ export function PortfolioGallery() {
           {galleryImages.map((image, index) => (
             <div
               key={index}
-              className="group relative aspect-square overflow-hidden rounded-lg bg-muted"
+              className="relative aspect-square overflow-hidden rounded-lg bg-muted"
             >
               <img
                 src={image.src}
                 alt={image.alt}
-                className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-110"
+                className="h-full w-full object-cover"
                 loading="lazy"
               />
-              <div className="absolute inset-0 bg-black/40 opacity-0 transition-opacity duration-300 group-hover:opacity-100 flex items-center justify-center">
-                <span className="text-white text-sm font-medium">
-                  View Image
-                </span>
-              </div>
             </div>
           ))}
         </div>
