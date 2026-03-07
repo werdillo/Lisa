@@ -7,7 +7,7 @@ export const sectionData = {
   description:
     "If you already have an idea, I will be happy to help you make it happen. If you still have an image or a mood but don't know how to express it - together we will find a form that will be close and unique to you.",
   image: {
-    src: "Lisa.png",
+    src: "/assets/Lisa.png",
     alt: "Feature section image",
     aspectRatio: 1,
   },

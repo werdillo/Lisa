@@ -9,11 +9,24 @@ export default function HeroSection() {
       className="section-padding-y relative flex min-h-svh items-center overflow-hidden lg:items-end"
       aria-labelledby="hero-heading"
     >
+      {/* Video for mobile only */}
+      <video
+        autoPlay
+        muted
+        loop
+        playsInline
+        className="absolute inset-0 z-0 h-full w-full object-cover lg:hidden"
+      >
+        <source src="/assets/mainpage_video.mp4" type="video/mp4" />
+      </video>
+
+      {/* Image for desktop only */}
       <img
         src={heroData.image.src}
         alt={heroData.image.alt}
-        className="absolute inset-0 z-0 h-full w-full object-cover"
+        className="absolute inset-0 z-0 hidden h-full w-full object-cover lg:block"
       />
+
       <div className="absolute inset-0 z-0 " />
       <div className="container-padding-x relative z-1 mx-auto flex max-w-7xl flex-col items-center gap-12 lg:flex-row lg:gap-16">
         <div className="flex flex-col items-center gap-4 text-center lg:flex-row lg:items-start lg:gap-16 lg:text-left">
