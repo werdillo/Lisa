@@ -24,6 +24,10 @@ export const footerData = {
       label: "Instagram",
       icon: SiInstagram,
     },
-    { href: "(+371) 22484996", label: "WhatsApp", icon: SiWhatsapp },
+    {
+      href: "https://wa.me/37122484996",
+      label: "WhatsApp",
+      icon: SiWhatsapp,
+    },
   ],
 };
