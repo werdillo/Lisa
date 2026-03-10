@@ -42,7 +42,7 @@ export default function HeroSection() {
                 </Badge>
               ))}
             </div>
-            <h1 id="hero-heading" className="heading-xl text-white uppercase">
+            <h1 id="hero-heading" className="text-white uppercase">
               {heroData.heading}
             </h1>
           </div>

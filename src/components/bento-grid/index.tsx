@@ -10,7 +10,7 @@ export function BentoGrid() {
       <div className="px-6 md:px-0 max-w-7xl mx-auto flex flex-col gap-10 md:gap-12">
         {/* Section Title */}
         <div className="section-title-gap-lg mx-auto flex max-w-xl flex-col items-center text-center">
-          <h2 className="heading-lg">{sectionData.heading}</h2>
+          <h2>{sectionData.heading}</h2>
           {/* Description */}
           <p className="text-muted-foreground">{sectionData.description}</p>
         </div>

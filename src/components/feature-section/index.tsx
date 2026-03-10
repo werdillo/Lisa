@@ -9,9 +9,7 @@ export function FeatureSection() {
       <div className="container-padding-x mx-auto flex max-w-7xl flex-col items-center gap-12 md:gap-16 lg:flex-row">
         <div className="flex flex-1 flex-col gap-8 md:gap-12">
           <div className="section-title-gap-lg flex flex-col">
-            <h2 className="heading-sm text-foreground">
-              {sectionData.heading}
-            </h2>
+            <h2 className="text-foreground">{sectionData.heading}</h2>
             <p className="text-foreground text-lg/8 text-pretty">
               {sectionData.description}
             </p>
