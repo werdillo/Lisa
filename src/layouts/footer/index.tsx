@@ -14,7 +14,7 @@ export function Footer() {
       <div className="mx-auto flex max-w-7xl flex-col gap-12 px-6 lg:gap-16">
         <div className="relative flex flex-col items-center gap-10 md:items-center md:justify-between lg:flex-row lg:gap-8">
           <a href="/" aria-label="Go to homepage">
-            <Logo className="size-7" />
+            <img src="favicon.svg" alt="logo" />
           </a>
           <FooterNav />
           <FooterSocials />
