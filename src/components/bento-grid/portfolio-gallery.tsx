@@ -42,7 +42,7 @@ export function PortfolioGallery() {
         </Button>
       </DialogTrigger>
       <DialogContent
-        className="max-w-[100vw] w-screen h-screen overflow-y-auto rounded-none border-none p-4 md:p-10"
+        className="max-w-dvw w-screen h-dvh overflow-y-auto rounded-none border-none p-4 md:p-10"
         onOpenAutoFocus={(e) => {
           // Fix for layout shift: ensure scrollbar-gutter or similar isn't causing jumps
           document.documentElement.style.paddingRight = `${window.innerWidth - document.documentElement.clientWidth}px`;
