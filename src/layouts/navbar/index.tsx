@@ -56,7 +56,7 @@ export function LpNavbar() {
         {isMenuOpen && (
           <div className="flex w-full flex-col justify-end gap-5 pb-2.5 md:hidden">
             <NavMenuItems />
-            <a href="#">
+            <a href="#contacts">
               <Button className="w-full">Write to me</Button>
             </a>
           </div>
