@@ -9,6 +9,6 @@ export const heroData = {
   },
   cta: {
     label: "Start Your Project",
-    href: "#",
+    href: "#contacts",
   },
 };
