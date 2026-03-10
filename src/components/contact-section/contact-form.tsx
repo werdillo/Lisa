@@ -33,7 +33,7 @@ export function ContactForm() {
                 placeholder={contactData.form.fields.name.placeholder}
                 required
                 aria-required="true"
-                className="bg-background"
+                className="bg-background focus-visible:border-primary focus-visible:ring-0"
               />
             </Field>
 
@@ -48,7 +48,7 @@ export function ContactForm() {
                 placeholder={contactData.form.fields.email.placeholder}
                 required
                 aria-required="true"
-                className="bg-background"
+                className="bg-background focus-visible:border-primary focus-visible:ring-0"
               />
             </Field>
 
@@ -60,7 +60,7 @@ export function ContactForm() {
                 id={contactData.form.fields.message.id}
                 name={contactData.form.fields.message.id}
                 placeholder={contactData.form.fields.message.placeholder}
-                className="bg-background min-h-[106px]"
+                className="bg-background min-h-[106px] focus-visible:border-primary focus-visible:ring-0"
                 required
                 aria-required="true"
               />
