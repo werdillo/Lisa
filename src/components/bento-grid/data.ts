@@ -12,7 +12,8 @@ export const features = [
     description:
       "It's safe to say that the graphic style dominates this century's visual culture. People are naturally drawn to its striking contrast, clean lines, and powerful expressiveness",
     imageSrc: "/assets/tatoo-1.jpg",
-    imageAlt: "Placeholder",
+    imageAlt:
+      "Bold graphic illustrative blackwork octopus tattoo with detailed tentacles on client's thigh, by Lisa, female tattoo artist in Riga Latvia",
     className: "rounded-xl lg:row-span-2",
     imageClassName: "h-full w-full object-cover",
   },
@@ -22,7 +23,8 @@ export const features = [
     description:
       "Realism is celebrated for its meticulous detail, rich interplay of light and shadow",
     imageSrc: "/assets/tatoo-2.jpg",
-    imageAlt: "Placeholder",
+    imageAlt:
+      "Detailed black and grey realism swallow birds tattoo in flight on client's upper arm and shoulder, curated by Lisa in tattoo studio Rīgā",
     className: "rounded-xl",
     imageClassName: "h-full w-full object-cover",
   },
@@ -32,7 +34,8 @@ export const features = [
     description:
       "Blends technical precision with rich, bold colors, striving to replicate life with depth.",
     imageSrc: "/assets/tatoo-3.jpg",
-    imageAlt: "Placeholder",
+    imageAlt:
+      "Illustrative custom tattoo featuring a detailed skull and vibrant purple flowers with green foliage on thigh, done by Lisa, custom color tattoo artist in Riga",
     className: "rounded-xl lg:col-start-2",
     imageClassName: "h-full w-full object-cover",
   },
@@ -42,7 +45,8 @@ export const features = [
     description:
       "In Japanese culture, tattoos are highly symbolic, with every design carrying a specific and deliberate meaning",
     imageSrc: "/assets/tatoo-4.jpg",
-    imageAlt: "Placeholder",
+    imageAlt:
+      "Large, detailed illustrative blackwork tiger and skull half-sleeve tattoo on upper arm, by Lisa custom tattooing in Latvia",
     className: "rounded-xl lg:col-start-3 lg:row-span-2 lg:row-start-1",
     imageClassName: "h-full w-full object-cover",
   },
