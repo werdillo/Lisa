@@ -51,3 +51,24 @@ export const features = [
     imageClassName: "h-full w-full object-cover",
   },
 ];
+
+export const galleryImages = [
+  { src: "/assets/gallery/img1.png", alt: "Tattoo work 1" },
+  { src: "/assets/gallery/img2.png", alt: "Tattoo work 2" },
+  { src: "/assets/gallery/img3.png", alt: "Tattoo work 3" },
+  { src: "/assets/gallery/img4.png", alt: "Tattoo work 4" },
+  { src: "/assets/gallery/img5.png", alt: "Tattoo work 5" },
+  { src: "/assets/gallery/img6.png", alt: "Tattoo work 6" },
+  { src: "/assets/gallery/img7.png", alt: "Tattoo work 7" },
+  { src: "/assets/gallery/img8.png", alt: "Tattoo work 8" },
+  { src: "/assets/gallery/img9.png", alt: "Tattoo work 9" },
+  { src: "/assets/gallery/img10.png", alt: "Tattoo work 10" },
+  { src: "/assets/gallery/img11.png", alt: "Tattoo work 11" },
+  { src: "/assets/gallery/img12.png", alt: "Tattoo work 12" },
+  { src: "/assets/gallery/img13.png", alt: "Tattoo work 13" },
+  { src: "/assets/gallery/img14.png", alt: "Tattoo work 14" },
+  { src: "/assets/gallery/img15.png", alt: "Tattoo work 15" },
+  { src: "/assets/gallery/img16.png", alt: "Tattoo work 16" },
+  { src: "/assets/gallery/img17.png", alt: "Tattoo work 17" },
+  { src: "/assets/gallery/img18.png", alt: "Tattoo work 18" },
+];

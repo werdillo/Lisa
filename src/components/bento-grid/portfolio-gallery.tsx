@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { galleryImages } from "./data";
 import {
   Dialog,
   DialogContent,
@@ -7,29 +8,6 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
-
-const galleryImages = [
-  {
-    src: "/assets/gallery/gallery-tatoo.jpg",
-    alt: "Tattoo work 1",
-  },
-  {
-    src: "/assets/gallery/gallery-tatoo-1.jpg",
-    alt: "Tattoo work 2",
-  },
-  {
-    src: "/assets/gallery/gallery-tatoo-2.jpg",
-    alt: "Tattoo work 3",
-  },
-  {
-    src: "/assets/gallery/gallery-tatoo-3.jpg",
-    alt: "Tattoo work 4",
-  },
-  {
-    src: "/assets/gallery/gallery-tatoo-4.jpg",
-    alt: "Tattoo work 5",
-  },
-];
 
 export function PortfolioGallery() {
   const [isOpen, setIsOpen] = useState(false);
